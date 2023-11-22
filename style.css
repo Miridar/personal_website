@@ -1,79 +1,79 @@
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 
-    font-family: 'Quicksand', sans-serif;
-    padding: 0;
-    margin: 0 auto;
-    min-height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+  padding: 0;
+  margin: 0 auto;
+  min-height: 100vh;
 }
 
 header {
-    box-sizing: border-box;
-    height: 5vw;
-    width: 100%;
+  box-sizing: border-box;
+  height: 5vw;
+  width: 100%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    background-color: #333;
-    color: white;
-    padding: 0.5rem;
-  }
+  background-color: #333;
+  color: white;
+  padding: 0.5rem;
+}
 
 .header-menu {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-  .header-menu-item {
-    margin-left: 3vw;
-  }
+.header-menu-item {
+  margin-left: 3vw;
+}
 
-  
+
 header a {
-    color: white;
-    font-size: 2vw;
-    font-weight: 700;
-    text-decoration: none;
-    display: inline-block;
-    transition: transform 0.5s ease;
-  }
-  
-  header a:hover {
-    color: gray;
-    transform: scale(1.2);
-    background-color: none;
-    text-decoration: none;
-  }
+  color: white;
+  font-size: 2vw;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.5s ease;
+}
+
+header a:hover {
+  color: gray;
+  transform: scale(1.2);
+  background-color: none;
+  text-decoration: none;
+}
 
 footer {
-    margin-top: auto;
+  margin-top: auto;
 
-    box-sizing: border-box;
-    bottom: 0;
-    height: 5vw;
-    width: 100%;
+  box-sizing: border-box;
+  bottom: 0;
+  height: 5vw;
+  width: 100%;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 2rem;
 }
 
 footer .disclaimer {
-    padding-left: 1rem;
-    font-size: 1vw;
+  padding-left: 1rem;
+  font-size: 1vw;
 }
 
 footer .social-media-links img {
-    height: 3vw;
-    padding-left: 1rem;
+  height: 3vw;
+  padding-left: 1rem;
 }

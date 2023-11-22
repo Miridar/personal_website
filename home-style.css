@@ -19,6 +19,11 @@ main {
     line-height: 1.75rem;
 }
 
+.welcome h1{
+    font-size:xx-large;
+}
+
+
 .paragraph-with-image {
     display: flex;
     align-items: center;

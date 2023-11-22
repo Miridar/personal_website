@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Šteidler | Blog</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="post-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="header-menu">
+                <li class="header-menu-item"><a href="../index.html">Home</a></li>
+                <li class="header-menu-item"><a href="../curriculum-vitae.html">Curriculum Vitae</a></li>
+                <li class="header-menu-item"><a href="../blog.html">Blog</a></li>
+                <li class="header-menu-item"><a href="#">Reviews</a></li>
+                <li class="header-menu-item"><a href="#">Portfolio</a></li>
+                <li class="header-menu-item"><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="post">
+            <h1 class="post-title">Title</h1>
+            <p class="post-content">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Etiam ligula pede, sagittis quis, interdum
+                ultricies, scelerisque eu. Fusce nibh. Ut tempus purus at lorem. Neque porro quisquam est, qui dolorem
+                ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt
+                ut labore et dolore magnam aliquam quaerat voluptatem. Donec quis nibh at felis congue commodo. Duis
+                pulvinar. Cras elementum. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam. Fusce
+                suscipit libero eget elit. Duis viverra diam non justo. Mauris elementum mauris vitae tortor. Maecenas
+                libero. Integer imperdiet lectus quis justo. In enim a arcu imperdiet malesuada. Neque porro quisquam
+                est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
+                tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+            </p>
+            <p id="post-date" class="post-date"></p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="disclaimer">
+            <p>&copy; 2023 Martin Šteidler. All rights reserved.</p>
+        </div>
+        <div class="social-media-links">
+            <a href="https://www.linkedin.com/in/martin-steidler/"><img src="../images\social_media\In-White-128.png"
+                    alt="LinkedIn logo"></a>
+            <a href="https://github.com/Miridar/"><img src="../images\social_media\github-mark-white.png"
+                    alt="GitHub logo"></a>
+        </div>
+    </footer>
+
+    <script src="scripts\date-format.js"></script>
+    <script>
+        document.getElementById("post-date").innerHTML = formatDate("1971-01-01");
+    </script>
+
+</body>
+
+</html>
