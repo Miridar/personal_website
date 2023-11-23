@@ -51,7 +51,7 @@ hr {
 .paragraph {
     width: 720px;
     color: #444;
-    font-size: large;
+    font-size: larger;
     text-align: justify;
     margin-bottom: 1rem;
 }
@@ -71,7 +71,8 @@ hr {
 }
 
 .paragraph-with-image .image {
-    width: 40%;
+    width: 288px;
+    height: auto;
     margin-left: 1rem;
     border: 1px solid black;
     border-radius: 1rem;
