@@ -20,9 +20,8 @@ main {
 }
 
 .welcome h1{
-    font-size:xx-large;
+    font-size: xx-large;
 }
-
 
 .paragraph-with-image {
     display: flex;

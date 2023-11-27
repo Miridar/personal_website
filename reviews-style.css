@@ -1,0 +1,111 @@
+main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+}
+
+.vertical-line {
+    position: absolute;
+    top: 1rem;
+    bottom: 1rem;
+    left: 50%;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.reviews {
+    width: 720px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.books,
+.movies {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-header {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.section-header .number, .section-header .number-right {
+    flex: 1;
+    color: gray;
+    font-size: xx-large;
+}
+
+.section-header .number-right {
+    text-align: right;
+}
+
+.section-header .blank {
+    flex: 1;
+    color: rgba(0, 0, 0, 0);
+    font-size: xx-large;
+}
+
+.books h1,
+.movies h1 {
+    text-align: center;
+    flex: 1;
+    font-size: xx-large;
+}
+
+.books hr,
+.movies hr {
+    position: absolute;
+    top: 4rem;
+    left: 1rem;
+    right: 1rem;
+    border: none;
+    border-top: 2px solid black;
+}
+
+.dropdown {
+    width: 200px;
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+.dropdown .title {
+    font-size: large;
+}
+
+.dropdown .more {
+    padding-top: 0.5rem;
+}
+
+.dropdown .more,
+.dropdown-content .less {
+    height: 0.75rem;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    padding-top: 0.5rem;
+}
+
+.dropdown-content .review-text {
+}
+
+.dropdown-content .less {
+    transform: rotate(180deg);
+}

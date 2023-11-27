@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Steidler | Contact</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="header-menu">
+                <li class="header-menu-item"><a href="index.html">Home</a></li>
+                <li class="header-menu-item"><a href="curriculum-vitae.html">Curriculum Vitae</a></li>
+                <li class="header-menu-item"><a href="blog.html">Blog</a></li>
+                <li class="header-menu-item"><a href="reviews.html">Reviews</a></li>
+                <li class="header-menu-item"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Contact Me</h1>
+            <div class="paragraph">Thank you for visiting my website. I appreciate your interest in my work and hobbies. If you have any
+                feedback, suggestions, or questions for me, please feel free to contact me using the form below or by
+                emailing me at <a href="mailto:martin@steidler.cz">martin@steidler.cz</a>. I would also love to hear
+                from you if you are interested in
+                collaborating on any exciting projects!
+            </div>
+            <div class="form-image">
+                <img src="images\robot-with-mailbox.png" alt="Robot with Mailbox">
+                <form action="/submit_form" method="post">
+                    <label for="name">*Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">*Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="subject">*Subject:</label>
+                    <input type="subject" id="subject" name="subject" required>
+
+                    <label for="message">*Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+
+                    <div class="g-recaptcha" data-sitekey="6Lc6UR4pAAAAAIYcwvI2YpEGIpXZgOkIhXjuD9G4" data-callback="enableBtn"></div>
+                    <button type="submit" id="submitBtn" disabled>Submit</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="disclaimer">
+            <p>© 2023 Martin Šteidler. All rights reserved.</p>
+        </div>
+        <div class="social-media-links">
+            <a href="https://www.linkedin.com/in/martin-steidler/"><img src="images\social_media\In-White-128.png"
+                    alt="LinkedIn logo"></a>
+            <a href="https://github.com/Miridar/"><img src="images\social_media\github-mark-white.png"
+                    alt="GitHub logo"></a>
+        </div>
+    </footer>
+
+    <script src="scripts\textarea.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</body>
+
+</html>
