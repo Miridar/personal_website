@@ -4,24 +4,15 @@
 <head>
     <title>Šteidler | Blog</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="post-style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/post-style.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul class="header-menu">
-                <li class="header-menu-item"><a href="../index.html">Home</a></li>
-                <li class="header-menu-item"><a href="../curriculum-vitae.html">Curriculum Vitae</a></li>
-                <li class="header-menu-item"><a href="../blog.html">Blog</a></li>
-                <li class="header-menu-item"><a href="../reviews.html">Reviews</a></li>
-                <li class="header-menu-item"><a href="../contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+
+    <?php include $_SERVER['DOCUMENT_ROOT']."/header.php"; ?>
 
     <main>
         <div class="post">
@@ -69,19 +60,9 @@
         </div>
     </main>
 
-    <footer>
-        <div class="disclaimer">
-            <p>&copy; 2023 Martin Šteidler. All rights reserved.</p>
-        </div>
-        <div class="social-media-links">
-            <a href="https://www.linkedin.com/in/martin-steidler/"><img src="../images\social_media\In-White-128.png"
-                    alt="LinkedIn logo"></a>
-            <a href="https://github.com/Miridar/"><img src="../images\social_media\github-mark-white.png"
-                    alt="GitHub logo"></a>
-        </div>
-    </footer>
+    <?php include $_SERVER['DOCUMENT_ROOT']."/footer.php"; ?>
 
-    <script src="scripts\date-format.js"></script>
+    <script src="javascript\date-format.js"></script>
     <script>
         document.getElementById("post-date").innerHTML = formatDate("2023-12-12");
     </script>
